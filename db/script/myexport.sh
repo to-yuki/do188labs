@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mariadb-dump --host=workstation --user=root --password=myapp myapp > /export/mydb.sql
+mariadb-dump --host=mydb --user=root --password=myapp myapp > /export/mydb.sql
 
